@@ -13,10 +13,10 @@ import { ModificadoresDeAcceso } from "./pages/fundamentos/ModificadoresDeAcceso
 import { ExcepcionesEnJava } from "./pages/fundamentos/ExcepcionesEnJava";
 import { Java8LambdasStreamsOptional } from "./pages/fundamentos/Java8LambdasStreamsOptional";
 import { Java11To21Features } from "./pages/fundamentos/Java11To21Features";
-import { Colecciones } from "./pages/collection_generics/Colecciones";
-import { Generics } from "./pages/collection_generics/Generics";
-import { MultithreadingConcurrencia } from "./pages/multithreading/MultithreadingConcurrencia";
-import { JavaIoNio } from "./pages/javaio/JavaIoNio";
+import { Colecciones } from "./pages/advanced/Colecciones";
+import { Generics } from "./pages/advanced/Generics";
+import { MultithreadingConcurrencia } from "./pages/advanced/MultithreadingConcurrencia";
+import { JavaIoNio } from "./pages/advanced/JavaIoNio";
 import { UnitTestingJava } from "./pages/testing/UnitTestingJava";
 import { SpringCore } from "./pages/spring/SpringCore";
 import { SpringBoot } from "./pages/spring/SpringBoot";
