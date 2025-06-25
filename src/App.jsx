@@ -58,10 +58,19 @@ import { PolimorfismoFigurasChallenge } from "./pages/challenges/poo/Polimorfism
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
-        <Navbar />
-        <div className="flex flex-1">
-          <Sidebar />
+      <div className="flex flex-col min-h-screen items-center">
+        <div className="sticky top-0 z-50 w-full">
+          <div className="max-w-7xl mx-auto">
+            <Navbar />
+          </div>
+        </div>
+        <div className="flex flex-1 w-full max-w-7xl">
+          <div
+            className="sticky top-[64px] self-start h-[calc(100vh-64px)] overflow-hidden transition-all duration-300 w-64"
+            id="sidebar-wrapper"
+          >
+            <Sidebar />
+          </div>
           <main className="flex-1 p-6 overflow-y-auto">
             <Routes>
               <Route path="/" element={<Home />} />
