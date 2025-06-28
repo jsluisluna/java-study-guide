@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Sidebar from "./components/Sidebar";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
@@ -192,6 +193,7 @@ function App() {
                 element={<PolimorfismoFigurasChallenge />}
               />
             </Routes>
+            <Analytics />
           </main>
         </div>
       </div>
