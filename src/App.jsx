@@ -17,6 +17,7 @@ import { Java11To21Features } from "./pages/fundamentos/Java11To21Features";
 import { Colecciones } from "./pages/advanced/Colecciones";
 import { Generics } from "./pages/advanced/Generics";
 import { MultithreadingConcurrencia } from "./pages/advanced/MultithreadingConcurrencia";
+import { ProgramacionReactiva } from "./pages/advanced/ProgramacionReactiva";
 import { JavaIoNio } from "./pages/advanced/JavaIoNio";
 import { UnitTestingJava } from "./pages/testing/UnitTestingJava";
 import { SpringCore } from "./pages/spring/SpringCore";
@@ -100,6 +101,7 @@ function App() {
                 path="/multithreading"
                 element={<MultithreadingConcurrencia />}
               />
+              <Route path="/reactive" element={<ProgramacionReactiva />} />
               <Route path="/io" element={<JavaIoNio />} />
               <Route path="/testing" element={<UnitTestingJava />} />
               <Route path="/spring-core" element={<SpringCore />} />

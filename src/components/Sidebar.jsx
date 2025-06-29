@@ -113,6 +113,7 @@ export default function Sidebar() {
           <SidebarLink to="/multithreading">
             Multithreading y concurrencia
           </SidebarLink>
+          <SidebarLink to="/reactive">Programación reactiva</SidebarLink>
           <SidebarLink to="/io">IO y NIO</SidebarLink>
         </Section>
 
